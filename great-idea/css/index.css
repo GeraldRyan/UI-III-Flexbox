@@ -80,7 +80,24 @@ header {
     padding-top: 75px;
     padding-bottom: 25px;
     display:flex;
+}
 
+.service-header{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    margin:0 2%;
+    text-align: left;
+}
+
+.service-header h1{
+    text-align: left;
+}
+
+.services-header-img{
+    width:100%;
+    margin: 33px 0px 10px 0px;
+    max-height: 250px;
 }
 
 header div {
@@ -121,10 +138,13 @@ a {
 
 nav {
     width: 100%;
-    margin: 0 40px;
+    margin: 0 40px 20px 0px;
     background-color: green;
     position: fixed;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    left: 1%;
+    right:1%;
+    padding: 0 10 0 10;
 }
 
 nav a {
@@ -191,13 +211,11 @@ section div p {
 }
 
 .article-box{
-    /* display:flex;
-    flex-direction: column;
-    justify-content:center; */
     text-align: left;
     background-color:lightgrey;
     border: 1px solid black;
-    max-width: 40%;
+    max-width: 45%;
+    min-width: 45%;
     margin: 10px 0;
     /* justify-content: center; */
 }
@@ -215,12 +233,23 @@ li{
 }
 
 .content-box{
-    max-width: 40%;
+    min-width: 45%;
+    max-width: 45%;
     margin:10px 0;
+    /* border: 2px solid black; */
 }
 
 .bottom-content{
     display:flex;
-    align-content:space-between;
+    align-content:space-around;
     justify-content: space-around;
 }
+
+.services-info-img{
+    min-width: 100%;
+    
+}
+
+/* .bottom-content p, li, .article-box p{
+    font-size: 30px;
+} */
